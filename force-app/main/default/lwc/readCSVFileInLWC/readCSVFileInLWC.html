@@ -1,0 +1,51 @@
+<template>
+
+    <lightning-card title="Register New Certificates" icon-name="custom:custom20">
+ 
+        <!-- lightning button for open custom modal window -->
+        <lightning-button variant="brand"
+        label="Register New Certificates"
+        title="New Certificates"
+        onclick={customShowModalPopup}
+        class="slds-m-left_x-small"></lightning-button>
+
+    <!-- modal start -->        
+    <template if:true={customFormModal}>
+
+    <lightning-card icon-name="custom:custom19" title='Transfer New Certificates'>
+        <div style="margin-left: 3%">
+            <p style="color:rgb(4, 0, 255); font-size:15px;">Please upload your implementation data file</p>
+            <lightning-file-upload accept={acceptedCSVFormats} 
+                                   label="Click Upload files to upload the implementation data into the system." 
+                                   multiple="multiple" 
+                                   onuploadfinished={uploadFileHandler} 
+                                   record-id={recordId}></lightning-file-upload>
+        </div>
+
+
+        <div if:true={error}>
+            {error}
+        </div><br/>
+
+        <div if:true={data}>
+            <lightning-datatable columns={columnsAccount} 
+                                 data={data} 
+                                 hide-checkbox-column="true" 
+                                 key-field="id"></lightning-datatable>
+        </div>
+
+        
+    </lightning-card>
+
+    <div if:true={onloadVisibile}>        
+        <div if:false={doneButton}>
+            <c-quickdonebutton></c-quickdonebutton>
+        </div>
+        <div if:true={doneButton}>
+            <p style="color:red; font-size:30px;">Please upload a new file.</p>
+        </div>
+    </div>
+
+    </template>
+</lightning-card>
+</template>

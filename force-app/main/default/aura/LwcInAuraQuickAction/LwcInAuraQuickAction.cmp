@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global">
+    <div>
+        <c:readCSVFileInLWC />
+    </div>
+    <div>
+        <!--<lightning:listView aura:id="listViewAccounts"
+    objectApiName="Account"
+    listName="AllUploadedAccounts"
+    rows="25"
+    showSearchBar="true"
+    showActionBar="false"
+    enableInlineEdit="true"
+    showRowLevelActions="false"
+    />-->
+    </div>
+
+</aura:component>

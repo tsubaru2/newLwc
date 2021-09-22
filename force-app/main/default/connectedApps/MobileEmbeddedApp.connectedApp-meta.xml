@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>tsubaru2@gmail.com</contactEmail>
+    <label>MobileEmbeddedApp</label>
+    <oauthConfig>
+        <callbackUrl>https://embedmynewapp.herokuapp.com/_callback.php</callbackUrl>
+        <consumerKey>3MVG9fe4g9fhX0E6y7iBve8qXGhQQWtdRwbKyBLPQGQ0PR0xIwgMbc5Pn94r10SHRIdDvFxorq8LnqRE_z959</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Customers</profileName>
+</ConnectedApp>

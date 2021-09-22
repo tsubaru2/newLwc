@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>exk1xe95nMVe4Nezl696</issuer>
+    <loginUrl>https://capgemininocompany.okta.com/app/salesforce/exk1xe95nMVe4Nezl696/sso/saml</loginUrl>
+    <logoutUrl>https://capgemininocompany.okta.com</logoutUrl>
+    <name>OKTA</name>
+    <oauthTokenEndpoint>https://tsubaru-dev-ed.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P15g00000GyDO6</requestSigningCertId>
+    <salesforceLoginUrl>https://tsubaru-dev-ed.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://tsubaru-dev-ed.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDtDCCApygAwIBAgIGAXvcaG8jMA0GCSqGSIb3DQEBCwUAMIGaMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxGzAZBgNVBAMMEmNhcGdlbWluaW5vY29tcGFueTEcMBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTAeFw0yMTA5MTIyMzQ2MTZaFw0zMTA5MTIyMzQ3MTZaMIGaMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxGzAZBgNVBAMMEmNhcGdlbWluaW5vY29tcGFueTEcMBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIoBUy4ql6dN5IooBZ6h7M/INS8FpQyNCOcBLNrdmUngOUwkGUp21X8lfwQ73Y4FzObioGaQP83ld4/Xkn+++BeHkfPDE+wDNJ2JWgDLAurkRXbrYaIEYRrsGS/Fbv2Zj0KsATvPhYl8CX9RqJ11jTlQaYzPxEMAHdngkXu/CLu4sHIrFqltg71cIrS+cSMcKQplnvSDbD5hcsRqQMkKQmZr7MnOyg97ngVq2d1r+CRYQ2FU85BsDwYPrK60Et22a2Oy/jzaD2cpesuIU2jaSYv4th12PgVHumChgIzonPq+yf/T72cxOk28ggL24kJuNXA5mNJLHa4Wle4zXTKcevUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAgfsD1v8pM2/SVa2nQHwbeCuJSGkx9n4s06nQ4wqm1A4BBascokmY198Q6oZbKVKP2N5u0MHyjt0DFJVxgZjJHQhUuFlv80eH1g/wTvYzv8AkfSZyD1c+AS4+iaBjcrg+w5YaVJ3n+ql/xOohUUQ98dl/uE5WrXsQtFWBO1LlarYWEmp2J+SQRTlqICHJoWCZtjOsTj+6dBvLDIHwmgdbfVh9DbYqgUmsps9N560u1o28beTSl0f3Ki+NnZgtj/cUIqIr6kh3gKzRqj6F0b9HDJoK2MT7rSYLHvfLOg5AluUuII2xtEJ7Ir+mA3qpeFwJHbcAPIJiP4ehXIZaTWSJaw==</validationCert>
+</SamlSsoConfig>

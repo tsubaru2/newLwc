@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <executionUserId>0055g00000B8uRo</executionUserId>
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>JumpCloud</issuer>
+    <loginUrl>https://sso.jumpcloud.com/saml2/sfjump</loginUrl>
+    <name>JumpCloud</name>
+    <oauthTokenEndpoint>https://tsubaru-dev-ed.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P15g00000GvNTA</requestSigningCertId>
+    <salesforceLoginUrl>https://tsubaru-dev-ed.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://tsubaru-dev-ed.my.salesforce.com/</samlEntityId>
+    <samlJitHandlerId>01p5g00000PfnAX</samlJitHandlerId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>true</userProvisioning>
+    <validationCert>MIIFfzCCA2egAwIBAgIVAPDh6ghlD4SUpWE0FO4boaCGsLAIMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDTzEQMA4GA1UEBxMHQm91bGRlcjESMBAGA1UEChMJSnVtcENsb3VkMRkwFwYDVQQLExBKdW1wQ2xvdWRTQU1MSWRQMRowGAYDVQQDExFKdW1wQ2xvdWRTQU1MVXNlcjAeFw0yMTA4MDIyMjQ2NTFaFw0yNjA4MDIyMjQ2NTFaMHcxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDTzEQMA4GA1UEBxMHQm91bGRlcjESMBAGA1UEChMJSnVtcENsb3VkMRkwFwYDVQQLExBKdW1wQ2xvdWRTQU1MSWRQMRowGAYDVQQDExFKdW1wQ2xvdWRTQU1MVXNlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKK77iGWNKfiRNZ9OvdRbFtCn8GhCEPMLZp5QZ2vJdOWLMMj4JQQwah3DPmkgACBf/3iguSYCmRagw+slQdtZYoEj5r0NKzlhGs6MLc0+UKCfA21Rxk2FTj8yCvoMNHaHS1Yq4mtILUA8EJuGRkxgnkgVnsUr67j/O6Zss41k1H5cvWP4gqWXmGfPSMmGFoa/eyJcaPC5sul1top+6DhWiCQC8o4QdZ7xBUhv3dlcHLw1IIooGzG/ThoJY6y+WqPNZxzZ4rjtCbS8UcdAoAR2CTb/lZGnMrYtVpc+qADocFhRkcjb40eGFIMhJzfr6tEBwhO1wwAr0VQXABoBPGpeGScbGstTO+tIak4SGTv2LEOC4SFuntNiL1XDd0Vve+Ib8pgNIYGyiUzXfnI0NCJoyY4XQ+qNkpuWOJPNIUGwcmE0weL53/GfmK3We3U4ZY3x8nbE0v3kgWY7Y+EC6ee1uj+BoNavITwGMGP55rqNcQHiD+5C60XeQO99r1ZKEn5VyhEeOipGqwc9gbuk3XDJkiDW4FCfurYJa8qmxtHouaIK6XmEu9XPe5cYoMtdRyvTld4AgDodUgMNnTuWxtAXEzyeQSUPzedQ2RAnnvJXgCAwCuV0xe3XdqJ77cEkSLjHNYX2c/lKKQXePne2nogkh4I72NUq8qPsM8xslL1rRSJAgMBAAGjAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQAq6YqES5E247sXlcJaKrT+7+tjvaj8muGYai7553OOP1nN2syESwNlfX/DEgwdzHEVAxx35vXWcrSWvCE9IEjJ87Dg/93aZ/mcZGaiYdUmRJPB+Tc2s4zyTYfD230R3CXEeBiqqMCnMdt0sF1aPH+OiLhfI9D9qlnW4Ob71IOcOCM8wo63O9nMCjfUH7PBI1RoiVIGvEF1PQj6VfHRBf61+Q5EsnaSA+pykO0U2FcZE/jqEmpuaSZFQtNJr9alcxcLYhXCnUhCNCxOI6ZfbTCVr0oRROzDxVRhLUnwcoQj8G5Wm+Fd9I3kd8pmxx1aB68/Z2gbCNraksQEVfG0horlUJoRPxc/nF5XQ7WeydwKyGZaq4oyrx99JIksXc0JYCarJpUS2afxHQ5aHsw2s2G3On/GTkS/mwekiWifGhXuCTF3LnHppg/7hivU2mVrQMFT6ON55ULHw5KzOMpKbgKBC4J9PpDi5gN5IcGaMgc5yGAPSkwunfcwwXwiEo+dzAnDQGbwinsDqmTElzUuU30uykmpfZdOlbnH2n0geB3e8XUp6pA8MiAOQDyq/E3Zk9exfqcELNJiWXT9/AnQBG5tSLF00AGTNG41k8myNi43KcytrhXZ75I37FmWZ80XhygpHgGkfCQ+BDwTuRC0NeYN5IQPGxfBprX8h78FZa1wuA==</validationCert>
+</SamlSsoConfig>

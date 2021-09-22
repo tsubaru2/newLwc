@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>s.att4@yahoo.com.au</contactEmail>
+    <label>Postmanapp</label>
+    <oauthConfig>
+        <callbackUrl>https://www.postman.com/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9fe4g9fhX0E6y7iBve8qXGlZ8ykoF9F2qGe14CkxjBdXtHrD7pVAm2CbU0LbNcjNG590ag94XBCX9MPY5</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>istockphoto887755698612x6121</masterLabel>
+    <originNetwork>CustProfile</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>CustProfile</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>istockphoto-887755698-612x612.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>
